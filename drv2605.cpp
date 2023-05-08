@@ -118,7 +118,7 @@ int DRV2605::init(bool bSoftI2C = false, bool bVerbose = true) {
         return -1;
     }
 
-    return -1;
+    return 0;
 }
 
 /*  Try to read 1 byte from the DRV2605 register at 'regAddress'.
